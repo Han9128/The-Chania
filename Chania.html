@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="">
+    <title>The Chania City</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abel&family=Rubik+Moonrocks&display=swap');
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Abel', sans-serif;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .nav {
+            background-color: rgb(66, 61, 61);
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            position: relative;
+
+        }
+
+        .nav li {
+            list-style: none;
+            float: left;
+            margin: 10px;
+            padding: 10px;
+
+        }
+
+        .nav li a {
+            color: white;
+            text-decoration: none;
+            text-shadow: 2px 2px 5px red;
+            margin: 15px;
+            font-size: larger;
+        }
+
+        .nav li:hover {
+            background-color: black;
+        }
+
+        .btn {
+            float: right;
+            margin: 15px 100px;
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: aliceblue;
+        }
+
+        .container {
+            overflow: hidden;
+            position: relative;
+
+
+        }
+
+        .menu {
+            float: left;
+            width: 25%;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 10px;
+        }
+
+        .menu li {
+            list-style: none;
+            margin: 15px;
+
+        }
+
+        .menu li a {
+            display: block;
+            width: 50%;
+            list-style: none;
+            background-color: rgb(185, 185, 185);
+            padding: 5px;
+            margin: 50px 15px;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+        }
+
+        .menu li a:hover {
+            background-color: rgb(73, 143, 104);
+            color: black;
+        }
+
+        .content {
+            overflow: hidden;
+            width: 75%;
+            float: right;
+            color: rgb(2, 0, 4);
+        }
+
+        .Title {
+            text-align: center;
+           
+            padding: 20px;
+            margin: 40px;
+            position: absolute;
+            top: 0px;
+            right: 40%;
+            font-size: xx-large;
+
+
+        }
+
+        .header {
+            margin: 30px 40px;
+            font-size: xx-large;
+            position: absolute;
+            top: 150px;
+        }
+
+        .logo {
+            position: absolute;
+            width: 40px;
+            right: 0;
+            margin: 15px 40px;
+            border-radius: 10px;
+
+        }
+
+        .img {
+            width: 100%;
+            position: relative;
+            top: -45vh;
+
+
+        }
+
+        .header p {
+            font-size: xx-large;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar starts here -->
+    <ul class="nav">
+        <li><a href="http://float_web.html" target="_blank" rel="noopener noreferrer">Home</a></li>
+        <li><a href="http://" target="_blank" rel="noopener noreferrer">News</a></li>
+        <li><a href="http://" target="_blank" rel="noopener noreferrer">Contact</a></li>
+        <li><a href="http://" target="_blank" rel="noopener noreferrer">About</a></li>
+
+        <button class="btn">Book now &rarr;</button>
+        <img class="logo"
+            src="https://media.istockphoto.com/photos/aerial-view-of-the-beautiful-city-of-chania-with-its-old-harbor-and-picture-id1156732947?k=20&m=1156732947&s=612x612&w=0&h=s7QxZYGVFl2ORrVANJGrdAqMMWxzo_qWBL71PpjEAbg="
+            alt="">
+            <!-- Navigation  Bar ends here-->
+    </ul>
+    
+    <div class="container">
+        <!-- Image inserted for logo at the right corner -->
+        <img class="img"
+            src="https://media.istockphoto.com/photos/aerial-view-of-the-beautiful-city-of-chania-with-its-old-harbor-and-picture-id1156732947?k=20&m=1156732947&s=612x612&w=0&h=s7QxZYGVFl2ORrVANJGrdAqMMWxzo_qWBL71PpjEAbg="
+            alt="">
+        <div class="menu">
+            <!-- Side menu column -->
+            <ul>
+                <li><a href="#">The Flight</a></li>
+                <li><a href="#">The City</a></li>
+                <li><a href="#">The Island</a></li>
+                <li><a href="#">The Food</a></li>
+                <li><a href="#">The People</a></li>
+                <li><a href="#">The History</a></li>
+                <li><a href="#">The Oceans</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <!-- Content section about the city -->
+            <div class="Title">
+                <h1>The City</h1>
+            </div>
+            <div class="header">
+                <h2>Chania</h2>
+                <p>
+                    Chania is the capital of the Chania region on the island of Crete. The city can be divided in two
+                    parts, the old town and the modern city
+                </p>
+            </div>
+            <!-- End of content section -->
+        </div>
+    <!-- End of container -->
+
+    </div>
+</body>
+
+</html>
